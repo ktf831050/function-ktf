@@ -1,0 +1,13 @@
+body {
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+}
+.dark-mode {
+	background-color: black;
+	color: white;
+}
+button {
+	border: none;
+	padding: 5px;
+}
