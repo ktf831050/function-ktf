@@ -1,13 +1,26 @@
 body {
-	font-family: arial;
 	margin: 0;
 	padding: 0;
-}
-.dark-mode {
-	background-color: black;
-	color: white;
+	font-family: Arial;
+	background-color: #F8F8FF;
 }
 button {
 	border: none;
 	padding: 5px;
+	border-radius: 5%;
+}
+button:hover {
+	background-color: black;
+	color: white;
+}
+.two {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.dark-mode {
+	background-color: black;
+	color: white;
 }
